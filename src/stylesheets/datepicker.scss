@@ -205,7 +205,7 @@
 .react-datepicker__time-container {
   float: right;
   border-left: 1px solid $datepicker__border-color;
-  width: 70px;
+  width: 100%;
 
   &--with-today-button {
     display: inline;
@@ -221,7 +221,7 @@
     background: white;
 
     .react-datepicker__time-box {
-      width: 70px;
+      width: 100%;
       overflow-x: hidden;
       margin: 0 auto;
       text-align: center;
